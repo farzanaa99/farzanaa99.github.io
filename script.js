@@ -1,59 +1,17 @@
-// Typewriter Effect
-const phrases = [
-  "Computer Science student at York University",
-  "I love building software",
-  "Exploring new technologies",
-  "Seeking Summer 2026 Internship Opportunities",
-  "Backend & Full-Stack Developer",
-  "Problem solver at heart",
-  "Always learning something new"
-];
+const themeToggle = document.getElementById('themeToggle');
+const htmlElement = document.documentElement;
 
-let phraseIndex = 0;
-let charIndex = 0;
-let isDeleting = false;
-let isPaused = false;
+const currentTheme = localStorage.getItem('theme') || 'light';
+htmlElement.setAttribute('data-theme', currentTheme);
 
-const typewriterElement = document.getElementById('typewriter');
-const typingSpeed = 80;
-const deletingSpeed = 50;
-const pauseTime = 2000; // Pause after typing complete phrase
-const deleteDelay = 1000; // Pause before starting to delete
-
-function typeWriter() {
-  const currentPhrase = phrases[phraseIndex];
+themeToggle.addEventListener('click', () => {
+  const currentTheme = htmlElement.getAttribute('data-theme');
+  const newTheme = currentTheme === 'light' ? 'dark' : 'light';
   
-  if (!isDeleting && !isPaused) {
-    // Typing
-    if (charIndex < currentPhrase.length) {
-      typewriterElement.textContent += currentPhrase.charAt(charIndex);
-      charIndex++;
-      setTimeout(typeWriter, typingSpeed);
-    } else {
-      // Finished typing, pause before deleting
-      isPaused = true;
-      setTimeout(() => {
-        isPaused = false;
-        isDeleting = true;
-        typeWriter();
-      }, pauseTime);
-    }
-  } else if (isDeleting && !isPaused) {
-    // Deleting
-    if (charIndex > 0) {
-      typewriterElement.textContent = currentPhrase.substring(0, charIndex - 1);
-      charIndex--;
-      setTimeout(typeWriter, deletingSpeed);
-    } else {
-      // Finished deleting, move to next phrase
-      isDeleting = false;
-      phraseIndex = (phraseIndex + 1) % phrases.length;
-      setTimeout(typeWriter, deleteDelay);
-    }
-  }
-}
+  htmlElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
+});
 
-// Smooth scroll for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -67,9 +25,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Initialize typewriter when page loads
-window.addEventListener('load', () => {
-  setTimeout(() => {
-    typeWriter();
-  }, 500);
-});
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+  contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+    
+    const mailtoLink = `mailto:farzanaa99@outlook.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
+    
+    window.location.href = mailtoLink;
+
+    contactForm.reset();
+  });
+}
