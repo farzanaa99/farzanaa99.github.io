@@ -753,3 +753,2168 @@ body {
     top: 16px;
   }
 }
+
+shld i add that i was a hacker at ellehacks hackathon? (btw dont touch anything else only add if needed) : <!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Farzana Sattar | CS Portfolio</title>
+
+
+
+   <meta name="robots" content="noindex, nofollow">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+  <nav class="nav">
+
+    <div class="nav-content">
+
+      <div class="nav-brand">Farzana Sattar</div>
+
+      <div class="nav-right">
+
+        <div class="nav-links">
+
+          <a href="#about">About</a>
+
+          <a href="#projects">Projects</a>
+
+          <a href="#contact">Contact</a>
+
+        </div>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+            <circle cx="12" cy="12" r="5"/>
+
+            <line x1="12" y1="1" x2="12" y2="3"/>
+
+            <line x1="12" y1="21" x2="12" y2="23"/>
+
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+
+            <line x1="1" y1="12" x2="3" y2="12"/>
+
+            <line x1="21" y1="12" x2="23" y2="12"/>
+
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+
+          </svg>
+
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+
+          </svg>
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+
+  <header class="hero">
+
+    <div class="hero-content">
+
+      <div class="hero-label">Computer Science Student</div>
+
+      <h1 class="hero-title">Building practical solutions through clean, efficient code.</h1>
+
+      <p class="hero-subtitle">
+
+        Hey there! I'm Farzana, a CS student at York University specializing in full-stack development 
+
+        and backend systems. I'm currently seeking Summer 2026 internship opportunities! :)
+
+      </p>
+
+      <div class="hero-cta">
+
+        <a href="#projects" class="btn-primary">View My Work</a>
+
+        <div class="hero-social-links">
+
+          <a href="https://github.com/farzanaa99" target="_blank" class="social-link">
+
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+
+            </svg>
+
+          </a>
+
+          <a href="https://www.linkedin.com/in/farzana99" target="_blank" class="social-link">
+
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+
+            </svg>
+
+          </a>
+
+          <a href="mailto:farzanaa99@outlook.com" class="social-link">
+
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+
+              <polyline points="22,6 12,13 2,6"/>
+
+            </svg>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+  <section id="about" class="about-section">
+
+    <div class="container">
+
+      <div class="about-content">
+
+        <h2 class="section-heading">About Me</h2>
+
+        <p>
+
+          Hey! I’m a computer science student who enjoys building software that solves real problems. I’m especially interested in backend development, but I like working across the stack when it helps bring an idea to life. I’ve worked with technologies like React, Spring Boot, Java, and Python, and I enjoy learning how real-world systems are designed and scaled.
+
+        </p>
+
+
+
+        <p>
+
+          When I'm not coding, you'll find me exploring new music, studying, watching youtube
+
+          or working on side projects with friends that push my skills forward.
+
+        </p>
+
+
+
+        <div class="about-highlights">
+
+          <div class="highlight-item">
+
+            <div class="highlight-icon">🎓</div>
+
+            <div>
+
+              <h4>Education</h4>
+
+              <p>York University<br>BSc in Computer Science</p>
+
+            </div>
+
+          </div>
+
+          <div class="highlight-item">
+
+            <div class="highlight-icon">💼</div>
+
+            <div>
+
+              <h4>Open To</h4>
+
+              <p>Summer 2026 Internships<br>Software Engineering<br>Full-Stack Development</p>
+
+            </div>
+
+          </div>
+
+
+
+          </div>
+
+          <div class="highlight-item">
+
+            <div class="highlight-icon">⭐</div>
+
+            <div>
+
+              <h4>Fun Fact</h4>
+
+              <p>For all multiples of 9 from 1–10,<br>the digits always add up to 9.</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="tech-stack">
+
+        <h3>Technologies I work with</h3>
+
+        <div class="tech-grid">
+
+          <div class="tech-category">
+
+            <span class="tech-label">Languages</span>
+
+            <div class="tech-items">
+
+              <span>Java</span>
+
+              <span>Python</span>
+
+              <span>JavaScript</span>
+
+              <span>TypeScript</span>
+
+              <span>C</span>
+
+              <span>SQL</span>
+
+            </div>
+
+          </div>
+
+          <div class="tech-category">
+
+            <span class="tech-label">Frontend</span>
+
+            <div class="tech-items">
+
+              <span>React</span>
+
+              <span>HTML/CSS</span>
+
+              <span>Tailwind</span>
+
+            </div>
+
+          </div>
+
+          <div class="tech-category">
+
+            <span class="tech-label">Backend & Databases</span>
+
+            <div class="tech-items">
+
+              <span>Spring Boot</span>
+
+              <span>PostgreSQL</span>
+
+              <span>MySQL</span>
+
+              <span>Firebase</span>
+
+              <span>REST APIs</span>
+
+            </div>
+
+          </div>
+
+          <div class="tech-category">
+
+            <span class="tech-label">Tools & Libraries</span>
+
+            <div class="tech-items">
+
+              <span>Docker</span>
+
+              <span>Git</span>
+
+              <span>AWS S3</span>
+
+              <span>Linux</span>
+
+              <span>Pandas</span>
+
+              <span>scikit-learn</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section id="experience" class="experience-section">
+
+    <div class="container">
+
+      <h2 class="section-heading">Experience</h2>
+
+
+
+      <div class="experience-list">
+
+        <div class="experience-item">
+
+          <div class="experience-header">
+
+            <h3>Software Developer - Riipen Level Up</h3>
+
+            <span class="experience-dates">Feb. 2026 - Present</span>
+
+          </div>
+
+          
+
+          <div class="experience-company">Pharma 360 Solutions Inc. - Remote</div>
+
+          <ul class="experience-bullets">
+
+            <li>Built a full-stack web application with a team of 3 to centralize pharmaceutical data workflows, enabling faster data entry and more reliable retrieval for internal users.</li>
+
+            <li>Implemented a relational database schema that reduced manual data handling and improved reporting accuracy by enforcing structured data relationships.</li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section id="projects" class="projects-section">
+
+    <div class="container">
+
+      <h2 class="section-heading">Featured Projects</h2>
+
+      <p class="section-subheading">A selection of projects I've built to solve real problems and learn new technologies.</p>
+
+      
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img src="assets/images/ratemysupp.png" alt="RateMySupp screenshot" />
+
+          </div>
+
+          <div class="project-info">
+
+            <h3>RateMySupplements</h3>
+
+            <p>Full-stack supplement review platform with React, Spring Boot, and PostgreSQL. Designed relational database schema with Spring Data JPA, and implemented secure image uploads to AWS S3.</p>
+
+            <div class="project-tags">
+
+              <span>Spring Boot</span>
+
+              <span>React</span>
+
+              <span>PostgreSQL</span>
+
+              <span>AWS S3</span>
+
+              <span>Docker</span>
+
+            </div>
+
+<div class="project-links">
+
+  <a href="https://github.com/farzanaa99/RateMySupps" class="project-link" target="_blank">
+
+    View Project →
+
+  </a>
+
+  <a href="https://ratemysupp.com" class="project-link" target="_blank">
+
+    View Demo →
+
+  </a>
+
+</div>
+
+         
+
+        </article>
+
+
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img src="assets/images/hackabot.png" alt="HackaBot screenshot" />
+
+          </div>
+
+          <div class="project-info">
+
+            <h3>HackaBot</h3>
+
+            <p>Automated Discord bot that extracts 100+ daily hackathon listings using Selenium and BeautifulSoup. Scheduled scrapes with APScheduler, reducing manual search time by 80%.</p>
+
+            <div class="project-tags">
+
+              <span>Python</span>
+
+              <span>Selenium</span>
+
+              <span>Discord API</span>
+
+              <span>SQLAlchemy</span>
+
+            </div>
+
+            <a href="https://github.com/farzanaa99/HackaBot" class="project-link" target="_blank">
+
+              View Project →
+
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img src="assets/images/trace.png" alt="Trace screenshot" />
+
+          </div>
+
+          <div class="project-info">
+
+            <h3>Trace</h3>
+
+            <p>Full-stack personal finance dashboard with React and Spring Boot. Built dashboard with Recharts to visualize 10+ spending categories with date-range filtering and Firebase authentication.</p>
+
+            <div class="project-tags">
+
+              <span>React</span>
+
+              <span>Spring Boot</span>
+
+              <span>MySQL</span>
+
+              <span>Firebase</span>
+
+            </div>
+
+            <a href="https://github.com/farzanaa99/PersonalFinanceTrackerTrace" class="project-link" target="_blank">
+
+              View Project →
+
+            </a>
+
+          </div>
+
+        </article>
+
+
+
+        <article class="project-card">
+
+          <div class="project-image">
+
+            <img src="assets/images/healthinsurancepredict.png" alt="Health Insurance Predictor screenshot" />
+
+          </div>
+
+          <div class="project-info">
+
+            <h3>Health Insurance Predictor</h3>
+
+            <p>Built a linear regression model on 1,300+ patient records to predict insurance costs, achieving 86% R² accuracy with Pandas preprocessing and feature engineering.</p>
+
+            <div class="project-tags">
+
+              <span>Python</span>
+
+              <span>Machine Learning</span>
+
+              <span>Pandas</span>
+
+              <span>scikit-learn</span>
+
+            </div>
+
+            <a href="https://github.com/farzanaa99/HealthInsurancePredictor" class="project-link" target="_blank">
+
+              View Project →
+
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <footer id="contact" class="footer">
+
+    <div class="container">
+
+      <div class="footer-content">
+
+        <h2>Get In Touch</h2>
+
+        <p>I'm currently looking for Summer 2026 internship opportunities. Feel free to reach out!</p>
+
+        
+
+        <form class="contact-form" id="contactForm">
+
+          <div class="form-group">
+
+            <label for="name">Name</label>
+
+            <input type="text" id="name" name="name" required>
+
+          </div>
+
+          
+
+          <div class="form-group">
+
+            <label for="email">Email</label>
+
+            <input type="email" id="email" name="email" required>
+
+          </div>
+
+          
+
+          <div class="form-group">
+
+            <label for="subject">Subject</label>
+
+            <input type="text" id="subject" name="subject" required>
+
+          </div>
+
+          
+
+          <div class="form-group">
+
+            <label for="message">Message</label>
+
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+          </div>
+
+          
+
+          <button type="submit" class="btn-primary">Send Message</button>
+
+        </form>
+
+      </div>
+
+      
+
+      <div class="footer-bottom">
+
+        <p>© 2025 Farzana Sattar</p>
+
+        <div class="footer-links">
+
+          <a href="https://github.com/farzanaa99" target="_blank">GitHub</a>
+
+          <a href="https://www.linkedin.com/in/farzana99" target="_blank">LinkedIn</a>
+
+          <a href="https://farzanaa99.github.io/" target="_blank">Website</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+:root {
+
+  /* Light mode colors */
+
+  --bg-primary: #ffffff;
+
+  --bg-secondary: #f8f9fa;
+
+  --text-primary: #1a1a1a;
+
+  --text-secondary: #6c757d;
+
+  --text-tertiary: #adb5bd;
+
+  --border: #e9ecef;
+
+  --accent: #4a90e2;
+
+  --accent-hover: #357abd;
+
+  --card-bg: #ffffff;
+
+  --shadow: rgba(0, 0, 0, 0.08);
+
+  --shadow-lg: rgba(0, 0, 0, 0.12);
+
+}
+
+
+
+[data-theme="dark"] {
+
+  --bg-primary: #0d1117;
+
+  --bg-secondary: #161b22;
+
+  --text-primary: #f0f6fc;
+
+  --text-secondary: #c9d1d9;
+
+  --text-tertiary: #8b949e;
+
+  --border: #30363d;
+
+  --accent: #58a6ff;
+
+  --accent-hover: #79b8ff;
+
+  --card-bg: #161b22;
+
+  --shadow: rgba(0, 0, 0, 0.3);
+
+  --shadow-lg: rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+
+
+body {
+
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  line-height: 1.6;
+
+  color: var(--text-primary);
+
+  background: var(--bg-primary);
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+
+
+.container {
+
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+  padding: 0 2rem;
+
+}
+
+
+
+.nav {
+
+  position: fixed;
+
+  top: 0;
+
+  width: 100%;
+
+  background: var(--bg-primary);
+
+  border-bottom: 1px solid var(--border);
+
+  z-index: 1000;
+
+  transition: background-color 0.3s ease;
+
+}
+
+
+
+.nav-content {
+
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+  padding: 1rem 2rem;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+
+
+.nav-brand {
+
+  font-family: 'Poppins', sans-serif;
+
+  font-weight: 600;
+
+  font-size: 1.1rem;
+
+  color: var(--text-primary);
+
+}
+
+
+
+.nav-right {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 2rem;
+
+}
+
+
+
+.nav-links {
+
+  display: flex;
+
+  gap: 2rem;
+
+}
+
+
+
+.nav-links a {
+
+  color: var(--text-secondary);
+
+  text-decoration: none;
+
+  font-size: 0.95rem;
+
+  font-weight: 500;
+
+  transition: color 0.2s ease;
+
+}
+
+
+
+.nav-links a:hover {
+
+  color: var(--text-primary);
+
+}
+
+
+
+.theme-toggle {
+
+  background: transparent;
+
+  border: 1px solid var(--border);
+
+  border-radius: 8px;
+
+  padding: 0.5rem;
+
+  cursor: pointer;
+
+  color: var(--text-primary);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  transition: all 0.2s ease;
+
+}
+
+
+
+.theme-toggle:hover {
+
+  background: var(--bg-secondary);
+
+}
+
+
+
+.moon-icon {
+
+  display: none;
+
+}
+
+
+
+[data-theme="dark"] .sun-icon {
+
+  display: none;
+
+}
+
+
+
+[data-theme="dark"] .moon-icon {
+
+  display: block;
+
+}
+
+
+
+/* Hero Section */
+
+.hero {
+
+  padding: 6rem 2rem 4rem;
+
+  margin-top: 60px;
+
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+
+}
+
+
+
+.hero-content {
+
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+}
+
+
+
+.hero-label {
+
+  display: inline-block;
+
+  font-size: 0.85rem;
+
+  font-weight: 600;
+
+  color: var(--accent);
+
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 1.5rem;
+
+}
+
+
+
+.hero-title {
+
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 3.5rem;
+
+  font-weight: 700;
+
+  line-height: 1.2;
+
+  color: var(--text-primary);
+
+  margin-bottom: 1.5rem;
+
+  max-width: 900px;
+
+}
+
+
+
+.hero-subtitle {
+
+  font-size: 1.15rem;
+
+  line-height: 1.7;
+
+  color: var(--text-secondary);
+
+  max-width: 700px;
+
+  margin-bottom: 2.5rem;
+
+}
+
+
+
+.hero-cta {
+
+  display: flex;
+
+  gap: 1rem;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+}
+
+
+
+.hero-social-links {
+
+  display: flex;
+
+  gap: 0.75rem;
+
+  align-items: center;
+
+  padding-left: 1rem;
+
+  border-left: 1px solid var(--border);
+
+}
+
+
+
+.btn-primary,
+
+.btn-secondary {
+
+  display: inline-block;
+
+  padding: 0.85rem 1.75rem;
+
+  font-size: 0.95rem;
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+  border-radius: 8px;
+
+  transition: all 0.2s ease;
+
+}
+
+
+
+.btn-primary {
+
+  background: var(--accent);
+
+  color: white;
+
+}
+
+
+
+.btn-primary:hover {
+
+  background: var(--accent-hover);
+
+  transform: translateY(-2px);
+
+}
+
+
+
+.btn-secondary {
+
+  background: transparent;
+
+  color: var(--text-primary);
+
+  border: 1px solid var(--border);
+
+}
+
+
+
+.btn-secondary:hover {
+
+  background: var(--bg-secondary);
+
+}
+
+
+
+/* About Section */
+
+.about-section {
+
+  padding: 5rem 2rem;
+
+  background: var(--bg-secondary);
+
+}
+
+
+
+.section-heading {
+
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 2rem;
+
+  font-weight: 600;
+
+  color: var(--text-primary);
+
+  margin-bottom: 1rem;
+
+}
+
+
+
+.about-content {
+
+  max-width: 800px;
+
+  margin: 0 auto;
+
+}
+
+
+
+.about-content p {
+
+  font-size: 1rem;
+
+  line-height: 1.8;
+
+  color: var(--text-secondary);
+
+  margin-bottom: 1.25rem;
+
+}
+
+
+
+.about-highlights {
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 2rem;
+
+  margin-top: 2.5rem;
+
+  margin-bottom: 2rem;
+
+}
+
+
+
+.highlight-item {
+
+  display: flex;
+
+  gap: 1rem;
+
+  align-items: flex-start;
+
+}
+
+
+
+.highlight-icon {
+
+  font-size: 2rem;
+
+  flex-shrink: 0;
+
+}
+
+
+
+.highlight-item h4 {
+
+  font-size: 0.95rem;
+
+  font-weight: 600;
+
+  color: var(--text-primary);
+
+  margin-bottom: 0.25rem;
+
+}
+
+
+
+.highlight-item p {
+
+  font-size: 0.9rem;
+
+  line-height: 1.6;
+
+  color: var(--text-secondary);
+
+  margin: 0;
+
+}
+
+
+
+.social-link {
+
+  width: 40px;
+
+  height: 40px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: var(--bg-secondary);
+
+  border: 1px solid var(--border);
+
+  border-radius: 8px;
+
+  color: var(--text-primary);
+
+  transition: all 0.2s ease;
+
+}
+
+
+
+.social-link:hover {
+
+  background: var(--accent);
+
+  border-color: var(--accent);
+
+  color: white;
+
+  transform: translateY(-2px);
+
+}
+
+
+
+.tech-stack {
+
+  margin: 4rem -2rem 0;
+
+  padding: 3rem 2rem 0;
+
+  border-top: 1px solid var(--border);
+
+  max-width: calc(1100px + 4rem);
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+
+
+.tech-stack h3 {
+
+  font-size: 1.1rem;
+
+  font-weight: 600;
+
+  color: var(--text-primary);
+
+  margin-bottom: 2rem;
+
+}
+
+
+
+.tech-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 2rem;
+
+}
+
+
+
+.tech-category {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 0.75rem;
+
+}
+
+
+
+.tech-label {
+
+  font-size: 0.85rem;
+
+  font-weight: 600;
+
+  color: var(--text-tertiary);
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.5px;
+
+}
+
+
+
+.tech-items {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 0.5rem;
+
+}
+
+
+
+.tech-items span {
+
+  padding: 0.4rem 0.9rem;
+
+  background: var(--card-bg);
+
+  border: 1px solid var(--border);
+
+  border-radius: 6px;
+
+  font-size: 0.875rem;
+
+  color: var(--text-secondary);
+
+  transition: all 0.2s ease;
+
+}
+
+
+
+.tech-items span:hover {
+
+  border-color: var(--accent);
+
+  color: var(--accent);
+
+  background: rgba(74, 144, 226, 0.05);
+
+  transform: translateY(-1px);
+
+}
+
+
+
+[data-theme="dark"] .tech-items span:hover {
+
+  background: rgba(88, 166, 255, 0.1);
+
+}
+
+
+
+.projects-section {
+
+  padding: 5rem 2rem;
+
+}
+
+
+
+.section-subheading {
+
+  font-size: 1.05rem;
+
+  color: var(--text-secondary);
+
+  margin-bottom: 3rem;
+
+  max-width: 700px;
+
+}
+
+
+
+.projects-grid {
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: 2rem;
+
+}
+
+
+
+@media (min-width: 768px) {
+
+  .projects-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+}
+
+
+
+@media (min-width: 1024px) {
+
+  .projects-grid {
+
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+}
+
+
+
+.project-card {
+
+  background: var(--card-bg);
+
+  border: 1px solid var(--border);
+
+  border-radius: 12px;
+
+  overflow: hidden;
+
+  transition: all 0.3s ease;
+
+}
+
+
+
+.project-card:hover {
+
+  transform: translateY(-4px);
+
+  box-shadow: 0 8px 24px var(--shadow-lg);
+
+  border-color: var(--accent);
+
+}
+
+
+
+.project-image {
+
+  width: 100%;
+
+  height: 220px;
+
+  overflow: hidden;
+
+  background: var(--bg-secondary);
+
+}
+
+
+
+.project-image img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
+
+
+
+.project-info {
+
+  padding: 1.75rem;
+
+}
+
+
+
+.project-info h3 {
+
+  font-size: 1.25rem;
+
+  font-weight: 600;
+
+  color: var(--text-primary);
+
+  margin-bottom: 0.75rem;
+
+}
+
+
+
+.project-info p {
+
+  font-size: 0.95rem;
+
+  line-height: 1.6;
+
+  color: var(--text-secondary);
+
+  margin-bottom: 1rem;
+
+}
+
+
+
+.project-tags {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 0.5rem;
+
+  margin-bottom: 1.25rem;
+
+}
+
+
+
+.project-tags span {
+
+  padding: 0.3rem 0.75rem;
+
+  background: var(--bg-secondary);
+
+  border-radius: 4px;
+
+  font-size: 0.8rem;
+
+  color: var(--text-secondary);
+
+  border: 1px solid transparent;
+
+  transition: all 0.2s ease;
+
+}
+
+
+
+.project-tags span:hover {
+
+  border-color: var(--border);
+
+  color: var(--text-primary);
+
+}
+
+
+
+.project-link {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 0.5rem;
+
+  color: var(--accent);
+
+  text-decoration: none;
+
+  font-size: 0.95rem;
+
+  font-weight: 600;
+
+  transition: gap 0.2s ease;
+
+}
+
+
+
+.project-link:hover {
+
+  gap: 0.75rem;
+
+}
+
+
+
+.project-links {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+}
+
+
+
+.footer {
+
+  padding: 5rem 2rem 3rem;
+
+  background: var(--bg-secondary);
+
+  border-top: 1px solid var(--border);
+
+}
+
+
+
+.footer-content {
+
+  max-width: 600px;
+
+  margin: 0 auto 3rem;
+
+}
+
+
+
+.footer-content h2 {
+
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 2rem;
+
+  font-weight: 600;
+
+  color: var(--text-primary);
+
+  margin-bottom: 1rem;
+
+  text-align: center;
+
+}
+
+
+
+.footer-content p {
+
+  font-size: 1.05rem;
+
+  color: var(--text-secondary);
+
+  margin-bottom: 2.5rem;
+
+  text-align: center;
+
+}
+
+
+
+.contact-form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1.5rem;
+
+}
+
+
+
+.form-group {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 0.5rem;
+
+}
+
+
+
+.form-group label {
+
+  font-size: 0.9rem;
+
+  font-weight: 600;
+
+  color: var(--text-primary);
+
+}
+
+
+
+.form-group input,
+
+.form-group textarea {
+
+  padding: 0.75rem 1rem;
+
+  background: var(--bg-primary);
+
+  border: 1px solid var(--border);
+
+  border-radius: 8px;
+
+  font-family: 'Inter', sans-serif;
+
+  font-size: 0.95rem;
+
+  color: var(--text-primary);
+
+  transition: border-color 0.2s ease;
+
+}
+
+
+
+.form-group input:focus,
+
+.form-group textarea:focus {
+
+  outline: none;
+
+  border-color: var(--accent);
+
+}
+
+
+
+.form-group textarea {
+
+  resize: vertical;
+
+  min-height: 120px;
+
+}
+
+
+
+.contact-form .btn-primary {
+
+  align-self: flex-start;
+
+  cursor: pointer;
+
+  border: none;
+
+}
+
+
+
+.footer-bottom {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding-top: 2rem;
+
+  border-top: 1px solid var(--border);
+
+}
+
+
+
+.footer-bottom p {
+
+  font-size: 0.9rem;
+
+  color: var(--text-tertiary);
+
+}
+
+
+
+.footer-links {
+
+  display: flex;
+
+  gap: 2rem;
+
+}
+
+
+
+.footer-links a {
+
+  font-size: 0.9rem;
+
+  color: var(--text-secondary);
+
+  text-decoration: none;
+
+  transition: color 0.2s ease;
+
+}
+
+
+
+.footer-links a:hover {
+
+  color: var(--accent);
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .hero-title {
+
+    font-size: 2.5rem;
+
+  }
+
+
+
+  .hero-subtitle {
+
+    font-size: 1rem;
+
+  }
+
+
+
+  .nav-right {
+
+    gap: 1rem;
+
+  }
+
+
+
+  .nav-links {
+
+    gap: 1rem;
+
+  }
+
+
+
+  .nav-links a {
+
+    font-size: 0.875rem;
+
+  }
+
+
+
+  .about-highlights {
+
+    grid-template-columns: 1fr;
+
+    gap: 1.5rem;
+
+  }
+
+
+
+  .tech-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+
+
+  .footer-bottom {
+
+    flex-direction: column;
+
+    gap: 1rem;
+
+    text-align: center;
+
+  }
+
+}
+
+
+
+@media (max-width: 480px) {
+
+  .hero {
+
+    padding: 5rem 1rem 3rem;
+
+  }
+
+
+
+  .hero-title {
+
+    font-size: 2rem;
+
+  }
+
+
+
+  .section-heading {
+
+    font-size: 1.75rem;
+
+  }
+
+
+
+  .container {
+
+    padding: 0 1rem;
+
+  }
+
+
+
+  .hero-cta {
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+  }
+
+
+
+  .hero-social-links {
+
+    border-left: none;
+
+    border-top: 1px solid var(--border);
+
+    padding-left: 0;
+
+    padding-top: 1rem;
+
+    justify-content: center;
+
+  }
+
+
+
+  .btn-primary,
+
+  .btn-secondary {
+
+    text-align: center;
+
+  }
+
+}
+
+
+
+.experience-section {
+
+  padding: 4rem 2rem;
+
+  background: transparent;
+
+}
+
+
+
+.experience-list {
+
+  position: relative;
+
+  margin: 2rem 0;
+
+  padding-left: 3.5rem;
+
+}
+
+
+
+.experience-list:before {
+
+  content: '';
+
+  position: absolute;
+
+  left: 26px;
+
+  top: 0;
+
+  bottom: 0;
+
+  width: 2px;
+
+  background: var(--border);
+
+  border-radius: 2px;
+
+}
+
+
+
+.experience-item {
+
+  position: relative;
+
+  background: var(--card-bg);
+
+  border: 1px solid var(--border);
+
+  border-radius: 10px;
+
+  padding: 1rem 1.25rem;
+
+  margin-bottom: 1.5rem;
+
+  box-shadow: 0 8px 18px var(--shadow);
+
+  transition: all 0.3s ease;
+
+}
+
+
+
+.experience-item:hover {
+
+  background: var(--bg-secondary);
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 12px 24px var(--shadow-lg);
+
+  border-color: var(--accent);
+
+}
+
+
+
+.experience-item:before {
+
+  content: '';
+
+  position: absolute;
+
+  left: -35px;
+
+  top: 18px;
+
+  width: 10px;
+
+  height: 10px;
+
+  background: var(--accent);
+
+  border: none;
+
+  border-radius: 50%;
+
+  box-shadow: none;
+
+  transition: all 0.3s ease;
+
+}
+
+
+
+.experience-item:hover:before {
+
+  box-shadow: 0 0 8px var(--accent);
+
+  transform: scale(1.2);
+
+}
+
+
+
+.experience-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: baseline;
+
+  gap: 1rem;
+
+  margin-bottom: 0.5rem;
+
+}
+
+
+
+.experience-header h3 {
+
+  font-size: 1.05rem;
+
+  font-weight: 600;
+
+  color: var(--text-primary);
+
+  margin: 0;
+
+}
+
+
+
+.experience-dates {
+
+  font-size: 0.9rem;
+
+  color: var(--text-tertiary);
+
+}
+
+
+
+
+
+.experience-company {
+
+  font-size: 0.95rem;
+
+  color: var(--text-secondary);
+
+  margin-bottom: 0.75rem;
+
+}
+
+
+
+.experience-bullets {
+
+  margin-left: 1rem;
+
+  color: var(--text-secondary);
+
+  list-style: disc;
+
+  line-height: 1.6;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .experience-list {
+
+    padding-left: 2.25rem;
+
+  }
+
+
+
+  .experience-item:before {
+
+    left: -32px;
+
+    top: 16px;
+
+  }
+
+}
+
+@media (max-width: 480px) {
+  .hero-content {
+    text-align: center;
+  }
+  .hero-label {
+    margin: 0 auto 1.5rem;
+  }
+}
