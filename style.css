@@ -5,7 +5,6 @@
 }
 
 :root {
-  /* Light mode colors */
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
   --text-primary: #1a1a1a;
@@ -129,7 +128,6 @@ body {
   display: block;
 }
 
-/* Hero Section */
 .hero {
   padding: 6rem 2rem 4rem;
   margin-top: 60px;
@@ -215,7 +213,6 @@ body {
   background: var(--bg-secondary);
 }
 
-/* About Section */
 .about-section {
   padding: 5rem 2rem;
   background: var(--bg-secondary);
@@ -757,7 +754,6 @@ body {
   line-height: 1.6;
 }
 
-/* Logos: large org logo at top-right of each entry, small inline logo next to company name */
 .experience-logo,
 .company-logo {
   filter: grayscale(10%);
@@ -785,8 +781,12 @@ body {
     padding-left: 2.25rem;
   }
 
+  .experience-list:before {
+    left: 17px;
+  }
+
   .experience-item:before {
-    left: -32px;
+    left: -23px;
     top: 16px;
   }
 
