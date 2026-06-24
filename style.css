@@ -293,18 +293,15 @@ body {
   transform: translateY(-2px);
 }
 
+
 .tech-stack {
-  margin: 4rem -2rem 0;
-  padding: 3rem 2rem 0;
-  border-top: 1px solid var(--text-tertiary);
-  max-width: calc(1100px + 4rem);
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 4rem;
+  padding-top: 3rem;
 }
 
-.tech-stack h3 {
+.tech-stack h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 2rem;
