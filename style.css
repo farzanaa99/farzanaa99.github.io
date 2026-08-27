@@ -310,50 +310,54 @@ nav a:hover {
     font-size: 9px;
 }
 
-.post-list {
+.notes-list {
     display: flex;
     flex-direction: column;
+    padding-bottom: 165px;
 }
 
-.post {
+.note {
     display: grid;
-    grid-template-columns: 75px 1fr 20px;
-    gap: 20px;
-    padding: 27px 0;
+    grid-template-columns: 220px 1fr;
+    gap: 10px;
+    padding: 10px 0;
     border-bottom: 1px solid #e4e4e7;
     transition: opacity 150ms ease;
+
 }
 
-.post:first-child {
+.note:first-child {
     padding-top: 0;
 }
 
-.post:hover {
+.note:hover {
     opacity: 0.55;
 }
 
-.post time {
+.note time {
     color: #71717a;
     font-family: "DM Mono", monospace;
     font-size: 10px;
 }
 
-.post h3 {
+.note h3 {
     margin: 0 0 7px;
     font-size: 14px;
     line-height: 1.45;
     font-weight: 600;
 }
 
-.post p {
+.note p {
     margin: 0;
     color: #71717a;
     font-size: 12px;
+    font-family: "Inter", sans-serif;
 }
 
 .arrow {
     color: #71717a;
     font-size: 12px;
+    
 }
 
 
@@ -364,6 +368,11 @@ nav a:hover {
     justify-content: space-between;
     padding: 105px 0 45px;
     color: #71717a;
+}
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-links {
@@ -467,12 +476,12 @@ nav a:hover {
 
 
 
-    .post {
+    .note {
         grid-template-columns: 1fr 20px;
         gap: 5px 16px;
     }
 
-    .post time {
+    .note time {
         grid-column: 1 / -1;
     }
 
